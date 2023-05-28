@@ -194,8 +194,8 @@ const styles = StyleSheet.create({
     padding: 15,
     fontWeight: '600',
     marginBottom: 15,
-    color: '#5C02A0',
-    backgroundColor: '#7AFFCE',
+    color: '#7AFFCE',
+    backgroundColor: '#386C5F',
   },
   resTxt: {
     backgroundColor: "#FFFFFF",

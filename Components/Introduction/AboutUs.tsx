@@ -38,7 +38,24 @@ const AboutUs = () => {
           <Text style={styles.text}>My name is Maryam Zahraie</Text>
           <Text style={styles.text}>
             I am the react developer of this application, LV Online Shopping is
-            a demo application , created by react native.
+            a demo application , created by react native, which is adopted for both dark and light mode.
+          </Text>
+          <Text style={styles.text}>some nots about the application:</Text>
+          <Text style={styles.text}>
+            Gender Selection and Category Selection filter the whole products,
+            based on gender or category.
+          </Text>
+          <Text style={styles.text}>
+            The search icon filters the whole products, based on gender or
+            category, or title. The entered name will be normalized with
+            lowercase.
+          </Text>
+          <Text style={styles.text}>
+            The login page, which launches with both the menu and the user icon,
+            has password creation tools that the user can select how many
+            characters, want and with which kind of digits. Both Login Yup
+            limitation and Password Generation Yup have a limit on the number of
+            digits which is between 4 and 16.
           </Text>
           <TouchableOpacity onPress={handlePersonal}>
             <Text style={styles.btnTxt}>Personal website</Text>
@@ -75,7 +92,7 @@ const styles = StyleSheet.create({
   topic: {
     marginTop: 70,
     fontSize: 16,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     marginBottom: 10,
     marginHorizontal: 20,
   },
@@ -97,10 +114,10 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     marginTop: 10,
     width: 200,
-    textAlign: "center",
+    textAlign: 'center',
     marginHorizontal: 20,
   },
   text: {
     marginHorizontal: 20,
-  } ,
+  },
 });
